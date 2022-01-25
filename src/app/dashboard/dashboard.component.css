@@ -1,0 +1,13 @@
+.container-dashboard{
+  margin: 4rem 0;
+  padding: 0 3rem;
+}
+.container-map{
+  height: 85vh;
+  width: 100%;
+}
+.contain-graph-info{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}

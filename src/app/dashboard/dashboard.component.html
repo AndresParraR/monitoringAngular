@@ -1,0 +1,8 @@
+<div class="container-dashboard">
+  <div class="container-map">
+    <app-map></app-map>
+  </div>
+  <div class="contain-graph-info">
+    <app-graph-circle *ngFor="let eachValue of values ;let i = index" [data]="eachValue" [index]="i"></app-graph-circle>
+  </div>
+</div>
