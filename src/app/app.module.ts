@@ -36,7 +36,7 @@ import { valuesReducer } from './state/values.reducers';
 import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 import { GraphCircleComponent } from './graph-circle/graph-circle.component';
 
-const config: SocketIoConfig = { url: 'http://localhost:4501', options: {} };
+const config: SocketIoConfig = { url: 'https://briefcase-api-node.herokuapp.com', options: {} };
 
 @NgModule({
   declarations: [

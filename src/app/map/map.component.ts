@@ -14,6 +14,7 @@ export class MapComponent implements OnInit {
 
   ngOnInit(): void {
     this.socket.io.on("NEW_COORDINATES", data => {
+      console.log(data);
       this.layers[0].setLatLng(latLng(data.lat, data.lng));
       this.center = latLng(data.lat, data.lng)
     })

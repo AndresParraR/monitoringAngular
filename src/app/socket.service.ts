@@ -13,7 +13,7 @@ export class SocketService {
   //   this.socket.emit('message', msg);
   // }
 
-  io = io("http://localhost:4501",{
+  io = io("https://briefcase-api-node.herokuapp.com",{
     withCredentials: false,
     autoConnect: true
   })
